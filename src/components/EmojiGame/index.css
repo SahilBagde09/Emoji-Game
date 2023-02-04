@@ -1,0 +1,31 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to bottom, #6a59ff, #fbc7d4);
+  margin-top: 0px;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.emoji-container {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px;
+  width: 650px;
+  height: 490px;
+}
+@media (max-width: 767px) {
+  .emoji-container {
+    width: 650px;
+    height: 490px;
+  }
+}
+.info-container {
+  text-align: center;
+}
